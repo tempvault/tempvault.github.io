@@ -28,7 +28,6 @@ a:hover {
 	background: #333;
 	border-top: 4px solid #c0392b;
 	padding-bottom: 15px;
-	position: relative;
 }
 
 .site-title,
@@ -50,6 +49,11 @@ a:hover {
 .main {
 	font-size: 16px;
 	padding: 20px;
+}
+
+img {
+	height: auto;
+	max-width: 900px;
 }
 
 img.construction {

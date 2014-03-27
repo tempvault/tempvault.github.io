@@ -58,9 +58,12 @@ jQuery(document).ready(function($) {
 	});
 
 	$(document).keyup(function(e){
-	    if(e.keyCode === 27 || e.keyCode == 13){
+	    if(e.keyCode === 27){
 	    	$('.modal').hide();
 			$('.modal-background').hide();
+	    }
+	    else if (e.keyCode == 13) {
+	    	window.location = $('.continue-link').attr('href');
 	    }
 	});
 
